@@ -1,4 +1,24 @@
 # Codeflow - Real-Time Collaborative Code Editor
+## 🎬 Demo
+![Codeflow Demo](demo.gif)
+
+*Real-time collaborative editing with multiple cursors*
+
+## Screenshots
+| Component | Preview |
+|-----------|---------|
+| Multiplayer Editor | ![editor](screenshots/editor.png) |
+| User Presence | ![presence](screenshots/presence.png) |
+| Sync Status | ![sync](screenshots/sync-status.png) |
+
+## Visual Description
+Editor shows multiple colored cursors moving and typing simultaneously. User presence lists connected collaborators with selections. Sync indicator shows CRDT merge operations with timestamps.
+
+---
+
+
+
+[![CI](https://github.com/moggan1337/Codeflow/actions/workflows/ci.yml/badge.svg)](https://github.com/moggan1337/Codeflow/actions/workflows/ci.yml)
 
 ![Codeflow Banner](https://img.shields.io/badge/Codeflow-Real--Time%20Collab-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
